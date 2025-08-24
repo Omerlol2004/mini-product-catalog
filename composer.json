@@ -1,0 +1,19 @@
+{
+    "name": "mini-product-catalog/laravel",
+    "type": "project",
+    "description": "Mini Product Catalog using Laravel and SQLite",
+    "keywords": ["laravel", "product", "catalog", "sqlite"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

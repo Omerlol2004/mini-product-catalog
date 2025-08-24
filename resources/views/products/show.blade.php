@@ -1,0 +1,1 @@
+@extends('layouts.app')@section('content')<a href="{{route('products.index')}}" class="btn btn-link">&larr; Back</a><h3>{{$product->name}}</h3><p>{{$product->category_name}}</p><p>{{$product->description}}</p><p>${{number_format($product->price,2)}}</p>@endsection

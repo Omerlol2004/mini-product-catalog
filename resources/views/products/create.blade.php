@@ -1,0 +1,1 @@
+@extends('layouts.app')@section('content')<h2>New Product</h2><form method="POST" action="{{route('products.store')}}">@include('products._form',['btnText'=>'Create'])</form>@endsection

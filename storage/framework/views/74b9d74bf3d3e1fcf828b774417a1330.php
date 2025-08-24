@@ -1,0 +1,2 @@
+<?php $__env->startSection('content'); ?><h2>New Product</h2><form method="POST" action="<?php echo e(route('products.store')); ?>"><?php echo $__env->make('products._form',['btnText'=>'Create'], array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?></form><?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.app', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\oozyb\OneDrive\Desktop\Second Assignment\resources\views/products/create.blade.php ENDPATH**/ ?>
