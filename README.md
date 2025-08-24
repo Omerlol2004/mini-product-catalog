@@ -82,7 +82,6 @@ A simple product catalog application built with Laravel and SQLite. This applica
 
 2. Open your browser and navigate to `http://localhost:8000`
 
-## Screenshots
 
 ### Product Listing Page
 The main page displays all products with search and filter functionality.
@@ -138,5 +137,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Author
+
 
 Created as a demonstration of Laravel CRUD operations with SQLite database.
